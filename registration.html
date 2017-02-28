@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form action="#" method="post" id="UserRegisterion">
+	    <fieldset><legend> Registerion From</legend>
+	        <div><label for="UserName">User Name</label><input type="text" name="UserName" id="UserName" required></div>
+	        <div><label for="Name">Name</label><input type="text" name="Name" id="Name" required></div>
+            <div><label for="Email">Email</label><input type="email" name="Email" id="Email" required></div>
+            <div><label for="Password">Password</label><input type="password" name="Password" id="Password" required></div>
+            <div><label for="Age">Age</label><input type="number" name="Age" id="Age" required></div>
+	        <input type="submit" value="Submit" id="submit">
+	    </fieldset>
+	    <div id="output"></div>
+	</form>
+    <form action="#" method="post" id="AverageAge">
+	    <fieldset><legend>Average Age</legend>
+          <input type="submit" value="Average Age" id="button">
+        </fieldset>
+    </form>
+    <form action="#" method="post" id="OrderNameAge">
+	    <fieldset><legend>Order by Age or Name</legend>
+            
+          <input type="radio" name="Order" id='Order'value="Name" >Name</p>
+          <input type="radio" name="Order" id='Order' value="Age" >Age</p>
+
+	     <input type="submit" value="Submit" id="submit">
+            
+        </fieldset>
+	 
+	</form>
+
+  <form action="#" method="post" id="TextOrder">
+      <fieldset><legend>Order by age</legend>
+              <h1>Order by age</h1>
+              <input type="number" name="OrderByAge" id="OrderByAge" >
+               <select id="selectbox">
+                <option value="Big">greater than or equal to</option>
+                <option value="Small">less than or equal to</option>
+               </select>
+          <input type="submit" value="Submit" id="submit">
+</fieldset>
+
+</form>
+    <div class="TestDiv" id="TotalData">
+       <label id="total"></label>
+    </div>
+       <script src="javascript/registration.js"></script>
+</body>
+</html>
